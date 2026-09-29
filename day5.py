@@ -3,6 +3,6 @@
 # Memory: 12.49MB
 
 def lengthOfLastWord(s):
-        a = s.strip()
-        wordList = a.split()
-        return len(wordList[-1])
+  a = s.strip()
+  wordList = a.split()
+  return len(wordList[-1])
