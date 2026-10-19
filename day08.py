@@ -2,7 +2,7 @@
 # Runtime: 0ms
 # Memory: 12.36MB
 
-def plusOne(self, digits):
+def plusOne(digits):
   wholeNum = int(''.join(map(str, digits)))
   wholeNum += 1
   
